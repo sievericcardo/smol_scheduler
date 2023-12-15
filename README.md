@@ -219,7 +219,7 @@ bucket: GreenHouseDemo
 Contains the information for the Simulation Driver instance. An example would be
 
 ```yaml
-smol_path: /home/lab/smol/GreenHouse.smol
+smol_path: /home/lab/smol/Greenhouse_ctrl.smol;/home/lab/smol/Greenhouse_data.smol;/home/lab/smol/Greenhouse_health.smol;/home/lab/smol/Greenhouse_plants.smol;/home/lab/smol/Greenhouse_pumps.smol;/home/lab/smol/Greenhouse_pots.smol;/home/lab/smol/GreenHouse.smol
 lifted_state_output_path: /home/lab/smol
 lifted_state_output_file: /home/lab/smol/out.ttl
 greenhouse_asset_model_file: /home/lab/smol/greenhouse.ttl
