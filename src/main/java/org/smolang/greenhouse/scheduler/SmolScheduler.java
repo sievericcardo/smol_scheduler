@@ -95,7 +95,7 @@ public class SmolScheduler {
       this.repl.getInterpreter().evalCall(
             this.repl.getInterpreter().getObjectNames("AssetModel").get(0),
             "AssetModel",
-            "decision");
+            "decision", null);
 
     this.utils.printMessage("Start querying lifted state...", true);
     String needWaterQuery =

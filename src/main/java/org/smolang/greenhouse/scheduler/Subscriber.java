@@ -41,7 +41,7 @@ public class Subscriber {
                         repl.getInterpreter().evalCall(
                                 repl.getInterpreter().getObjectNames("AssetModel").get(0),
                                 "AssetModel",
-                                "reconfigure");
+                                "reconfigure", null);
                     } else if (queueName.equals("controller.1.exec.time")) {
                         scheduler.setExecutionTime(Integer.parseInt(msg));
                     }
@@ -59,7 +59,7 @@ public class Subscriber {
                         repl.getInterpreter().evalCall(
                                 repl.getInterpreter().getObjectNames("AssetModel").get(0),
                                 "AssetModel",
-                                "reconfigure");
+                                "reconfigure", null);
                     } else if (queueName.equals("controller.1.exec.time")) {
                         scheduler.setExecutionTime(Integer.parseInt(msg));
                     }
